@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS_&_HTML_TABLE</title>
+
+    <style>
+        .body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .main_heading {
+            background-color: burlywood;
+            color: blue;
+            text-align: center;
+            margin: 15px 460px;
+            padding: 10px;
+            font-size: 2em;
+            max-width: 800px;
+            min-width: 300px;
+            text-decoration: underline;
+        }
+        
+        .mytable {
+            margin: 50px 15px;
+            border-collapse: collapse;
+            font-size: 1.15em;
+            min-width: 600px;
+            border-radius: 10px 10px 0px 0px;
+            overflow: hidden;
+            box-shadow: 0px 0px 80px seagreen;
+        }
+        
+        .tablecaption {
+            margin: 4px 600px;
+            background-color: yellowgreen;
+            font-weight: bold;
+            color: indigo;
+            font-size: 1.03em;
+            font-family: cursive;
+            min-width: 300px;
+        }
+        
+        .mytable thead tr {
+            background-color: goldenrod;
+            text-transform: uppercase;
+            font-size: 1.035em;
+            color: navy;
+            font-weight: bold;
+        }
+        
+        .mytable tbody tr {
+            font-size: 1em;
+        }
+        
+        .mytable td,
+        .mytable th {
+            padding: 2px;
+            border: 1px solid green;
+            font-size: 1em;
+        }
+        
+        .mytable tr:nth-of-type(even) {
+            background-color: lightblue;
+            color: darkred;
+        }
+        
+        .spnote {
+            background-color: lightgrey;
+            color: red;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .mytable tbody tr:nth-of-type(odd) {
+            background-color: thistle;
+            color: darkgreen
+        }
+        
+        .bold {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: black;
+        }
+        
+        .mytable tr {
+            cursor: pointer;
+            border-bottom: 3px dotted seagreen;
+        }
+        
+        .mytable tfoot td {
+            background-color: rgb(115, 162, 238);
+            font-weight: bold;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+        
+        .mytable tbody tr:hover {
+            background-color: lightslategrey;
+        }
+        
+        .note:hover {
+            cursor: progress;
+        }
+        
+        caption:hover {
+            background-color: khaki;
+            cursor: zoom-in;
+        }
+        
+        .main_heading:hover {
+            background-color: olivedrab;
+            cursor: grab;
+        }
+        
+        .lastrow td:hover {
+            cursor: auto;
+            background-color: orange;
+            color: darkmagenta;
+        }
+        
+        .spnote:hover {
+            color: blue;
+            background-color: lightgreen;
+        }
+        
+        .bold:hover {
+            background-color: indianred;
+            cursor: auto;
+        }
+        
+        .mainhead :hover {
+            background-color: mediumseagreen;
+        }
+        
+        .messtime {
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            font-size: 1.3em;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+    <h1 class="main_heading">Mess Menu Kailash Boys Hostel(NITH)</h1>
+
+    <table class="mytable">
+        <caption class="tablecaption">National Institute of Technology Hamirpur(HP)<br/> Kailash Boys Hostel <br/> Mess Menu:2019-2020</caption>
+
+        <thead>
+            <tr class="mainhead">
+                <th bgcolor="goldenrod">Mess Food</th>
+                <th bgcolor="goldenrod">Breakfast</th>
+                <th bgcolor="goldenrod">Lunch</th>
+                <th bgcolor="goldenrod">Evening snacks</th>
+                <th bgcolor="goldenrod">Dinner</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="bold" bgcolor="dodgerblue">Mess Timings--></td>
+                <td class="messtime">7.30 AM to 9.00 AM</td>
+                <td class="messtime">12.30 PM to 2.00 PM</td>
+                <td class="messtime">6.00 PM to 6.30 PM</td>
+                <td class="messtime">7.30 PM to 9.00 PM</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">MONDAY</td>
+                <td>Egg Bhurji + Paneer Bhurji + Plain Prantha + Milk</td>
+                <td>Curry Pakoda + Dum Aloo + Rice/Chapatti + Salad+ Curd</td>
+                <td>Tea + Bread Pakoda</td>
+                <td>Shahi Paneer + Dhulli Mungi Dal + Rice/Chapatti + Salad + Rasmalai</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">TUESDAY</td>
+                <td>Aloo Prantha + Milk + Butter + Apple</td>
+                <td>Soya Chaap + Urad Dal + Rice/Chapatti + Raita + Salad</td>
+                <td>Cofee + Samosa</td>
+                <td>Arhar Dal + Mix Veg + Rice/Chapatti + Ice cream</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">WEDNESDAY</td>
+                <td>Sandwitch + Sauce + Milk + orange</td>
+                <td>Sambhar + Aloo Matar + Rice/Chapatti</td>
+                <td>Tea + Patty</td>
+                <td>Butter Chicken + Palak Paneer + Chana Dal + Rice/Chapatti</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">THURSDAY</td>
+                <td>Pav Bhaji + Butter + Milk</td>
+                <td>Rajmaah + Rice/Chapatti + Salad</td>
+                <td>Cofee + Biscuit</td>
+                <td>Aloo Newtry + Sabut Masar Dal + Rice/Chapatti + Mungi Halwa</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">FRIDAY</td>
+                <td>Brown Bread + Jam + Cornflakes + Milk</td>
+                <td>Safed Chana + Boondi Raita + Rice/Chapatti</td>
+                <td>Frooty + Namkeen</td>
+                <td>Egg Curry + Malai Kofta + Sabut Mungi Dal + Rice/Chapatti</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">SATURDAY</td>
+                <td>Macroni + Tea + Banana</td>
+                <td>Mushroom + Pulao + Curd</td>
+                <td>Tea + Kachori</td>
+                <td>Chilly Paneer + Dhuli Mungi Dal + Rice/Chapatti + Rasgulla</td>
+            </tr>
+
+            <tr>
+                <td class="bold" bgcolor="lightgreen">SUNDAY</td>
+                <td>Chana Bhatura + Tea</td>
+                <td>Veg Biryani + Kala Chana + Curd</td>
+                <td>Cofee + Bread Sandwitch</td>
+                <td>Kadhai Paneer + Manchurian + Chana Dal + Rice/Chapatti</td>
+            </tr>
+
+            <tr class="note">
+                <td rowspan="4" class="bold" bgcolor="fucshia">NOTE:-</td>
+                <td colspan="4" class="spnote">Chappati's will be served only when the machine will be running</td>
+
+            </tr>
+
+            <tr class="note">
+                <td colspan="4" class="spnote">Salad will be served during lunch and dinner everyday</td>
+
+            </tr>
+
+            <tr class="note">
+                <td colspan="4" class="spnote">Achar will be served at all time</td>
+
+            </tr>
+
+            <tr class="note">
+                <td colspan="4" class="spnote">To drink water bring your own waterbottle or drink from jug provided at each table</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr class="lastrow">
+                <td colspan="2">Mess Secretry(KBH)</td>
+                <td>Mess Attendent(KBH)</td>
+                <td>MMCA Office(KBH)</td>
+                <td>Warden(KBH)</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
